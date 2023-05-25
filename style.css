@@ -1,0 +1,113 @@
+html, body {
+	background-color: #add8e6; 
+	color: #000;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+nav {	
+	width:20%; 
+	float:right; 
+	padding:1%; 
+	overflow:hidden; 
+}
+
+nav ul li {
+	list-style-type:none; 
+	padding:0 0 0 10px;
+}
+
+footer { 
+	height:50px;
+	background:#000;
+	color:#FFF;
+	text-align:center;
+	margin-top:10px;
+	padding:5px;
+}
+
+header { 
+	height:100px;	
+	background: #808080; 
+	color: #fff; /* white */
+	margin: 0 0 10px 0; 
+}
+
+
+#content { 
+	width:75%; 
+	background: #C0C0C0; 
+	float:left; 
+	padding:1%; 
+	overflow:hidden; 
+}
+
+#wrapper { 
+	width:90%;
+	overflow:hidden;
+	margin:0 auto;
+	min-height:calc(100% - 52px); 
+	padding:1%; 
+}
+
+@media only screen and (max-width: 900px) {
+   nav {width:88%; position:absolute; height:30px;}
+   nav ul li {display: inline; }
+   nav ul li:after {content: " |";}
+   #content {width: 98%;position:relative; top: 30px;margin-top:5%;}
+}
+nav ul li a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  nav ul li a.active:hover {
+	background-color: #3e8e41;
+  }
+  .right {
+	float: right;
+ }
+ img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+  }
+  table {
+	border: 5px solid black;
+	border-collapse: collapse;
+  }
+  
+  td, th {
+	border: 2px solid black;
+	padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+	table {
+	  display: none;
+	}
+  }
+  .right {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+  }
+  
+  .right a {
+	color: #ffffff;
+	background-color: #333333;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+  .right a:hover {
+	background-color: #555555;
+  }
+  
+  
+  
+  
+  
+  
+  
+ 
